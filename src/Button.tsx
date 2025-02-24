@@ -1,8 +1,9 @@
+type Props = {
+    title: string
+}
 
-export const Button = () => {
+export const Button = ({title}:Props) => {
     return (
-        <div>
-
-        </div>
+        <button>{title}</button>
     );
 };
